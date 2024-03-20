@@ -1,7 +1,7 @@
-FROM node:21-alpine
+FROM arm64v8/node:21-alpine
 
 # Set labels
-LABEL repo="https://github.com/HeyPuter/puter"
+LABEL repo="https://github.com/kroschu/puter"
 LABEL license="AGPL-3.0,https://github.com/HeyPuter/puter/blob/master/LICENSE.txt"
 LABEL version="v1.2.40-beta"
 
